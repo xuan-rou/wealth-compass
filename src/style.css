@@ -1,0 +1,72 @@
+@import 'tailwindcss';
+
+@theme {
+  /* 1. 定義夢幻背景漸層 */
+  --image-dreamy-gradient: linear-gradient(
+    to bottom,
+    #d8d8fd,
+    #e7e7ff,
+    #eceeff
+  );
+
+  /* 2. 定義專屬色彩 */
+  /* 深藍紫主色，用於大標題和選中狀態 */
+  --color-primary-dark: #645cca;
+  /* 淺藍紫輔助色，用於圖標背景 */
+  --color-primary-light: #ddd6fe;
+
+  /* 你的財富功能色 (沿用) */
+  --color-income: #22c55e;
+  --color-expense: #ef4444;
+  --color-brand-gold: #fbbf24;
+  --color-jade: #10b981;
+
+  /* 3. 定義卡片風格 */
+  /* 半透明白底卡片 */
+  --color-card-bg: rgba(255, 255, 255, 0.2);
+  /* 柔和陰影 */
+  --shadow-dreamy: 0 10px 30px -10px rgba(76, 29, 149, 0.1);
+
+  /* 4. 新增設計色彩 */
+  --color-sky-blue: #bae6fd;
+  --color-mint-green: #a7f3d0;
+  --color-lavender: #e9d5ff;
+  --color-text-primary: #1e293b; /* Slate 800 */
+  --color-text-secondary: #64748b; /* Slate 500 */
+
+  /* 定義最小單位 */
+  --spacing: 4px;
+}
+
+/* 全局設定：讓背景充滿整個手機螢幕 */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-image: var(--image-dreamy-gradient); /* 應用背景 */
+  background-attachment: fixed; /* 讓背景固定不隨捲動 */
+  font-family: 'SN Pro', 'Noto Sans TC', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+}
