@@ -1,0 +1,2762 @@
+{
+  "version": "2.6",
+  "children": [
+    {
+      "type": "frame",
+      "id": "KTyg3",
+      "x": 0,
+      "y": 0,
+      "name": "Assets Page",
+      "width": 390,
+      "height": 844,
+      "fill": "#d8d8fd",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "SvJTS",
+          "name": "Header",
+          "width": "fill_container",
+          "height": 120,
+          "fill": "linear-gradient(180deg, #d8d8fd 0%, #e7e7ff 100%)",
+          "layout": "vertical",
+          "padding": [
+            60,
+            24,
+            16,
+            24
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "sVumC",
+              "name": "headerTitle",
+              "fill": "#645cca",
+              "content": "My Assets",
+              "fontFamily": "Inter",
+              "fontSize": 28,
+              "fontWeight": "bold",
+              "letterSpacing": -0.5
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "xWftm",
+          "name": "Content",
+          "width": "fill_container",
+          "height": "fill_container",
+          "layout": "vertical",
+          "gap": 16,
+          "padding": [
+            0,
+            24,
+            100,
+            24
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "zj3gg",
+              "name": "Stats Card",
+              "width": "fill_container",
+              "height": 160,
+              "fill": "linear-gradient(135deg, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0.3) 50%, rgba(255,255,255,0.2) 100%)",
+              "cornerRadius": 32,
+              "layout": "vertical",
+              "gap": 12,
+              "padding": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "hejs4",
+                  "name": "Row 1",
+                  "width": "fill_container",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "547Z8",
+                      "name": "totalAssetsBox",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 4,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "ZrBeQ",
+                          "name": "assetsLabel",
+                          "fill": "#64748b",
+                          "content": "Total Assets",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "tNMrw",
+                          "name": "assetsAmount",
+                          "fill": "#1e293b",
+                          "content": "$1,100,000",
+                          "fontFamily": "Inter",
+                          "fontSize": 24,
+                          "fontWeight": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "m0X2I",
+                      "name": "totalLiabBox",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 4,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Lowzz",
+                          "name": "liabLabel",
+                          "fill": "#64748b",
+                          "content": "Total Liabilities",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "xfMeh",
+                          "name": "liabAmount",
+                          "fill": "#ef4444",
+                          "content": "$100,000",
+                          "fontFamily": "Inter",
+                          "fontSize": 24,
+                          "fontWeight": "bold"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "rectangle",
+                  "id": "sZN8z",
+                  "name": "divider",
+                  "fill": "rgba(255,255,255,0.4)",
+                  "width": "fill_container",
+                  "height": 1
+                },
+                {
+                  "type": "frame",
+                  "id": "t4npK",
+                  "name": "netWorthRow",
+                  "width": "fill_container",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "5s9lR",
+                      "name": "netLabel",
+                      "fill": "#64748b",
+                      "content": "Net Worth",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "vQnpf",
+                      "name": "netAmount",
+                      "fill": "#645cca",
+                      "content": "$1,000,000",
+                      "fontFamily": "Inter",
+                      "fontSize": 28,
+                      "fontWeight": "bold"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "He1zL",
+              "name": "Category Tabs",
+              "width": "fill_container",
+              "gap": 8,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "8AyLn",
+                  "name": "tab1",
+                  "height": 36,
+                  "fill": "#645cca",
+                  "cornerRadius": 18,
+                  "padding": [
+                    8,
+                    16
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "GzUjX",
+                      "name": "tab1Text",
+                      "fill": "#ffffff",
+                      "content": "All",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "D2eMn",
+                  "name": "tab2",
+                  "height": 36,
+                  "fill": "rgba(255,255,255,0.3)",
+                  "cornerRadius": 18,
+                  "padding": [
+                    8,
+                    16
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "ZE0Vj",
+                      "name": "tab2Text",
+                      "fill": "#645cca",
+                      "content": "Bank",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "D2pQh",
+                  "name": "tab3",
+                  "height": 36,
+                  "fill": "rgba(255,255,255,0.3)",
+                  "cornerRadius": 18,
+                  "padding": [
+                    8,
+                    16
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "WYb0o",
+                      "name": "tab3Text",
+                      "fill": "#645cca",
+                      "content": "Investment",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "9djb8",
+                  "name": "tab4",
+                  "height": 36,
+                  "fill": "rgba(255,255,255,0.3)",
+                  "cornerRadius": 18,
+                  "padding": [
+                    8,
+                    16
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "J2C87",
+                      "name": "tab4Text",
+                      "fill": "#645cca",
+                      "content": "Debt",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "ww3q4",
+              "name": "Asset List",
+              "width": "fill_container",
+              "height": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "NjErU",
+                  "name": "Asset Item",
+                  "width": "fill_container",
+                  "fill": "linear-gradient(135deg, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0.3) 50%, rgba(255,255,255,0.2) 100%)",
+                  "cornerRadius": 24,
+                  "gap": 12,
+                  "padding": 16,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "ellipse",
+                      "id": "J5Eb0",
+                      "name": "iconBg1",
+                      "fill": "rgba(255,255,255,0.7)",
+                      "width": 48,
+                      "height": 48
+                    },
+                    {
+                      "type": "text",
+                      "id": "ZWiNA",
+                      "name": "iconText1",
+                      "content": "🏦",
+                      "fontFamily": "Inter",
+                      "fontSize": 24,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "bmKei",
+                      "name": "assetInfo1",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 4,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "XCuuX",
+                          "name": "assetName1",
+                          "fill": "#1e293b",
+                          "content": "Chase Checking",
+                          "fontFamily": "Inter",
+                          "fontSize": 16,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "h2bK2",
+                          "name": "assetType1",
+                          "fill": "#64748b",
+                          "content": "Bank Account",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "6uBhT",
+                      "name": "assetAmount1",
+                      "layout": "vertical",
+                      "gap": 2,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "3vWsa",
+                          "name": "amount1",
+                          "fill": "#1e293b",
+                          "content": "$45,230",
+                          "fontFamily": "Inter",
+                          "fontSize": 18,
+                          "fontWeight": "bold"
+                        },
+                        {
+                          "type": "text",
+                          "id": "waXBo",
+                          "name": "trend1",
+                          "fill": "#22c55e",
+                          "content": "+2.5%",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "mJeum",
+                  "name": "Asset Item",
+                  "width": "fill_container",
+                  "fill": "linear-gradient(135deg, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0.3) 50%, rgba(255,255,255,0.2) 100%)",
+                  "cornerRadius": 24,
+                  "gap": 12,
+                  "padding": 16,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "ellipse",
+                      "id": "y6yRv",
+                      "name": "iconBg2",
+                      "fill": "rgba(255,255,255,0.7)",
+                      "width": 48,
+                      "height": 48
+                    },
+                    {
+                      "type": "text",
+                      "id": "FMafk",
+                      "name": "iconText2",
+                      "content": "📈",
+                      "fontFamily": "Inter",
+                      "fontSize": 24,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "6krup",
+                      "name": "assetInfo2",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 4,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "sd8mw",
+                          "name": "assetName2",
+                          "fill": "#1e293b",
+                          "content": "Vanguard 500",
+                          "fontFamily": "Inter",
+                          "fontSize": 16,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "LlDu1",
+                          "name": "assetType2",
+                          "fill": "#64748b",
+                          "content": "Index Fund",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "HiP67",
+                      "name": "assetAmount2",
+                      "layout": "vertical",
+                      "gap": 2,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "KTqZv",
+                          "name": "amount2",
+                          "fill": "#1e293b",
+                          "content": "$850,000",
+                          "fontFamily": "Inter",
+                          "fontSize": 18,
+                          "fontWeight": "bold"
+                        },
+                        {
+                          "type": "text",
+                          "id": "Uv505",
+                          "name": "trend2",
+                          "fill": "#22c55e",
+                          "content": "+12.3%",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "YSGWJ",
+                  "name": "Asset Item",
+                  "width": "fill_container",
+                  "fill": "linear-gradient(135deg, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0.3) 50%, rgba(255,255,255,0.2) 100%)",
+                  "cornerRadius": 24,
+                  "gap": 12,
+                  "padding": 16,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "ellipse",
+                      "id": "hpDdk",
+                      "name": "iconBg3",
+                      "fill": "rgba(255,255,255,0.7)",
+                      "width": 48,
+                      "height": 48
+                    },
+                    {
+                      "type": "frame",
+                      "id": "vx8Po",
+                      "name": "iconFrame3",
+                      "width": 48,
+                      "height": 48,
+                      "layout": "vertical",
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "zbQTR",
+                          "name": "iconText3",
+                          "content": "🏠",
+                          "fontFamily": "Inter",
+                          "fontSize": 24,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "fq35E",
+                      "name": "assetInfo3",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 4,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "4XMIs",
+                          "name": "assetName3",
+                          "fill": "#1e293b",
+                          "content": "Main Residence",
+                          "fontFamily": "Inter",
+                          "fontSize": 16,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "7iRZ8",
+                          "name": "assetType3",
+                          "fill": "#64748b",
+                          "content": "Real Estate",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "KbKKq",
+                      "name": "assetAmount3",
+                      "layout": "vertical",
+                      "gap": 2,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "caaTZ",
+                          "name": "amount3",
+                          "fill": "#1e293b",
+                          "content": "$500,000",
+                          "fontFamily": "Inter",
+                          "fontSize": 18,
+                          "fontWeight": "bold"
+                        },
+                        {
+                          "type": "text",
+                          "id": "DE2qq",
+                          "name": "trend3",
+                          "fill": "#22c55e",
+                          "content": "+5.1%",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "gFeK5",
+          "name": "Bottom Nav",
+          "width": "fill_container",
+          "height": 84,
+          "fill": "rgba(255,255,255,0.9)",
+          "padding": [
+            12,
+            24,
+            24,
+            24
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "laGZy",
+              "name": "navItem1",
+              "layout": "vertical",
+              "gap": 4,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "njcVz",
+                  "name": "navIcon1",
+                  "content": "💰",
+                  "fontFamily": "Inter",
+                  "fontSize": 22,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "FPjjv",
+                  "name": "navLabel1",
+                  "fill": "#645cca",
+                  "content": "Assets",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "tXJtc",
+              "name": "navItem2",
+              "layout": "vertical",
+              "gap": 4,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "mlJgN",
+                  "name": "navIcon2",
+                  "content": "📊",
+                  "fontFamily": "Inter",
+                  "fontSize": 22,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "1xjkU",
+                  "name": "navLabel2",
+                  "fill": "#94a3b8",
+                  "content": "Charts",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "qcQsj",
+              "name": "addButton",
+              "width": 56,
+              "height": 56,
+              "fill": "#645cca",
+              "cornerRadius": 28,
+              "layout": "vertical",
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "4zUhb",
+                  "name": "plusIcon",
+                  "fill": "#ffffff",
+                  "content": "+",
+                  "fontFamily": "Inter",
+                  "fontSize": 32,
+                  "fontWeight": "300"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "8pofx",
+              "name": "navItem3",
+              "layout": "vertical",
+              "gap": 4,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "mCsPl",
+                  "name": "navIcon3",
+                  "content": "🎯",
+                  "fontFamily": "Inter",
+                  "fontSize": 22,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "LlXit",
+                  "name": "navLabel3",
+                  "fill": "#94a3b8",
+                  "content": "Goals",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "ucl2K",
+              "name": "navItem4",
+              "layout": "vertical",
+              "gap": 4,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "UkBjk",
+                  "name": "navIcon4",
+                  "content": "⚙️",
+                  "fontFamily": "Inter",
+                  "fontSize": 22,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "5BhkA",
+                  "name": "navLabel4",
+                  "fill": "#94a3b8",
+                  "content": "Settings",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "500"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "Rr6AV",
+      "x": 420,
+      "y": 0,
+      "name": "Charts Page",
+      "width": 390,
+      "height": 844,
+      "fill": "#d8d8fd",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "qzqdQ",
+          "name": "Header",
+          "width": "fill_container",
+          "height": 120,
+          "fill": "linear-gradient(180deg, #d8d8fd 0%, #e7e7ff 100%)",
+          "layout": "vertical",
+          "padding": [
+            60,
+            24,
+            16,
+            24
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "iDQpY",
+              "name": "chartsTitle",
+              "fill": "#645cca",
+              "content": "Analytics",
+              "fontFamily": "Inter",
+              "fontSize": 28,
+              "fontWeight": "bold",
+              "letterSpacing": -0.5
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "UMBdk",
+          "name": "Content",
+          "width": "fill_container",
+          "height": "fill_container",
+          "layout": "vertical",
+          "gap": 16,
+          "padding": [
+            0,
+            24,
+            100,
+            24
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "6VbhZ",
+              "name": "Time Selector",
+              "width": "fill_container",
+              "gap": 8,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "JoKo1",
+                  "name": "time1",
+                  "width": "fill_container",
+                  "height": 36,
+                  "fill": "#645cca",
+                  "cornerRadius": 18,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "sG6ME",
+                      "name": "time1Text",
+                      "fill": "#ffffff",
+                      "content": "1W",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ZTyJw",
+                  "name": "time2",
+                  "width": "fill_container",
+                  "height": 36,
+                  "fill": "rgba(255,255,255,0.3)",
+                  "cornerRadius": 18,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "mg8e9",
+                      "name": "time2Text",
+                      "fill": "#645cca",
+                      "content": "1M",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "LwVEl",
+                  "name": "time3",
+                  "width": "fill_container",
+                  "height": 36,
+                  "fill": "rgba(255,255,255,0.3)",
+                  "cornerRadius": 18,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "xF28Z",
+                      "name": "time3Text",
+                      "fill": "#645cca",
+                      "content": "3M",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "uDTNz",
+                  "name": "time4",
+                  "width": "fill_container",
+                  "height": 36,
+                  "fill": "rgba(255,255,255,0.3)",
+                  "cornerRadius": 18,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "bLsnV",
+                      "name": "time4Text",
+                      "fill": "#645cca",
+                      "content": "1Y",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "3i9kc",
+              "name": "Net Worth Trend",
+              "width": "fill_container",
+              "height": 240,
+              "fill": "linear-gradient(135deg, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0.3) 50%, rgba(255,255,255,0.2) 100%)",
+              "cornerRadius": 24,
+              "layout": "vertical",
+              "gap": 12,
+              "padding": 20,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "L6QvZ",
+                  "name": "chart1Title",
+                  "fill": "#1e293b",
+                  "content": "Net Worth Trend",
+                  "fontFamily": "Inter",
+                  "fontSize": 18,
+                  "fontWeight": "bold"
+                },
+                {
+                  "type": "text",
+                  "id": "CjXaV",
+                  "name": "chart1Subtitle",
+                  "fill": "#22c55e",
+                  "content": "+15.2% this month",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "frame",
+                  "id": "i4ATZ",
+                  "name": "chartPlaceholder1",
+                  "width": "fill_container",
+                  "height": "fill_container",
+                  "fill": "rgba(100,92,202,0.1)",
+                  "cornerRadius": 12,
+                  "layout": "vertical",
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "FhJuT",
+                      "name": "chartIcon1",
+                      "content": "📈",
+                      "fontFamily": "Inter",
+                      "fontSize": 48,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "ginmD",
+              "name": "Expense Breakdown",
+              "width": "fill_container",
+              "height": 280,
+              "fill": "linear-gradient(135deg, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0.3) 50%, rgba(255,255,255,0.2) 100%)",
+              "cornerRadius": 24,
+              "layout": "vertical",
+              "gap": 12,
+              "padding": 20,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "UBzVf",
+                  "name": "chart2Title",
+                  "fill": "#1e293b",
+                  "content": "Expense Breakdown",
+                  "fontFamily": "Inter",
+                  "fontSize": 18,
+                  "fontWeight": "bold"
+                },
+                {
+                  "type": "frame",
+                  "id": "qQisg",
+                  "name": "chart2Row",
+                  "width": "fill_container",
+                  "height": "fill_container",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "ellipse",
+                      "id": "fUUG3",
+                      "name": "pieChart",
+                      "fill": "linear-gradient(135deg, #645cca 0%, #a78bfa 100%)",
+                      "width": 140,
+                      "height": 140
+                    },
+                    {
+                      "type": "ellipse",
+                      "id": "HoYMQ",
+                      "name": "pieCenter",
+                      "fill": "#ffffff",
+                      "width": 80,
+                      "height": 80
+                    },
+                    {
+                      "type": "frame",
+                      "id": "ACRiO",
+                      "name": "legend",
+                      "width": "fill_container",
+                      "height": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "justifyContent": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "ijauM",
+                          "name": "legendItem1",
+                          "width": "fill_container",
+                          "gap": 8,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "ellipse",
+                              "id": "LeW8z",
+                              "name": "dot1",
+                              "fill": "#645cca",
+                              "width": 12,
+                              "height": 12
+                            },
+                            {
+                              "type": "text",
+                              "id": "HJdZ1",
+                              "name": "legendText1",
+                              "fill": "#1e293b",
+                              "content": "Food 35%",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "doFXs",
+                          "name": "legendItem2",
+                          "width": "fill_container",
+                          "gap": 8,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "ellipse",
+                              "id": "XTnsr",
+                              "name": "dot2",
+                              "fill": "#a78bfa",
+                              "width": 12,
+                              "height": 12
+                            },
+                            {
+                              "type": "text",
+                              "id": "Gr7e7",
+                              "name": "legendText2",
+                              "fill": "#1e293b",
+                              "content": "Transport 25%",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "uT1oS",
+                          "name": "legendItem3",
+                          "width": "fill_container",
+                          "gap": 8,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "ellipse",
+                              "id": "nQEtN",
+                              "name": "dot3",
+                              "fill": "#c4b5fd",
+                              "width": 12,
+                              "height": 12
+                            },
+                            {
+                              "type": "text",
+                              "id": "yoEoB",
+                              "name": "legendText3",
+                              "fill": "#1e293b",
+                              "content": "Shopping 20%",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "dIPga",
+                          "name": "legendItem4",
+                          "width": "fill_container",
+                          "gap": 8,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "ellipse",
+                              "id": "BgYu8",
+                              "name": "dot4",
+                              "fill": "#e9d5ff",
+                              "width": 12,
+                              "height": 12
+                            },
+                            {
+                              "type": "text",
+                              "id": "HZ0JB",
+                              "name": "legendText4",
+                              "fill": "#1e293b",
+                              "content": "Others 20%",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "DnHwv",
+              "name": "Insight Card",
+              "width": "fill_container",
+              "fill": "linear-gradient(135deg, rgba(251,191,36,0.3) 0%, rgba(251,191,36,0.1) 100%)",
+              "cornerRadius": 24,
+              "gap": 12,
+              "padding": 16,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "dHFb3",
+                  "name": "insightIcon",
+                  "content": "💡",
+                  "fontFamily": "Inter",
+                  "fontSize": 32,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "X5ujZ",
+                  "name": "insightText",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "smTNN",
+                      "name": "insightTitle",
+                      "fill": "#1e293b",
+                      "content": "Great Progress!",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "0xXFq",
+                      "name": "insightDesc",
+                      "fill": "#64748b",
+                      "content": "Your savings rate increased by 8% compared to last month.",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "WQGid",
+      "x": 850,
+      "y": 0,
+      "name": "Goals Page",
+      "width": 390,
+      "height": 844,
+      "fill": "#d8d8fd",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "P9JSR",
+          "name": "Header",
+          "width": "fill_container",
+          "height": 120,
+          "fill": "linear-gradient(180deg, #d8d8fd 0%, #e7e7ff 100%)",
+          "layout": "vertical",
+          "padding": [
+            60,
+            24,
+            16,
+            24
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "a8u8v",
+              "name": "goalsTitle",
+              "fill": "#645cca",
+              "content": "My Goals",
+              "fontFamily": "Inter",
+              "fontSize": 28,
+              "fontWeight": "bold",
+              "letterSpacing": -0.5
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "FrdQR",
+          "name": "Content",
+          "width": "fill_container",
+          "height": "fill_container",
+          "layout": "vertical",
+          "gap": 16,
+          "padding": [
+            0,
+            24,
+            100,
+            24
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "M3z2d",
+              "name": "Summary",
+              "width": "fill_container",
+              "fill": "linear-gradient(135deg, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0.3) 50%, rgba(255,255,255,0.2) 100%)",
+              "cornerRadius": 24,
+              "gap": 16,
+              "padding": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "dBl5L",
+                  "name": "summaryLeft",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Hc35W",
+                      "name": "summaryLabel1",
+                      "fill": "#64748b",
+                      "content": "Active Goals",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "duGJc",
+                      "name": "summaryValue1",
+                      "fill": "#645cca",
+                      "content": "4",
+                      "fontFamily": "Inter",
+                      "fontSize": 32,
+                      "fontWeight": "bold"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "49OuL",
+                  "name": "summaryRight",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "gaDOl",
+                      "name": "summaryLabel2",
+                      "fill": "#64748b",
+                      "content": "Completed",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "zly02",
+                      "name": "summaryValue2",
+                      "fill": "#22c55e",
+                      "content": "2",
+                      "fontFamily": "Inter",
+                      "fontSize": 32,
+                      "fontWeight": "bold"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "HGlBh",
+              "name": "Goals List",
+              "width": "fill_container",
+              "height": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "yQn5a",
+                  "name": "Goal Card",
+                  "width": "fill_container",
+                  "fill": "linear-gradient(135deg, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0.3) 50%, rgba(255,255,255,0.2) 100%)",
+                  "cornerRadius": 24,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 20,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "6HLOv",
+                      "name": "goal1Header",
+                      "width": "fill_container",
+                      "gap": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "ellipse",
+                          "id": "iCnHG",
+                          "name": "goal1Icon",
+                          "fill": "rgba(255,255,255,0.7)",
+                          "width": 44,
+                          "height": 44
+                        },
+                        {
+                          "type": "text",
+                          "id": "rPvEX",
+                          "name": "goal1IconText",
+                          "content": "🏠",
+                          "fontFamily": "Inter",
+                          "fontSize": 22,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "ZrO9c",
+                          "name": "goal1Info",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 2,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "iYZzD",
+                              "name": "goal1Name",
+                              "fill": "#1e293b",
+                              "content": "House Down Payment",
+                              "fontFamily": "Inter",
+                              "fontSize": 16,
+                              "fontWeight": "bold"
+                            },
+                            {
+                              "type": "text",
+                              "id": "Jdhqs",
+                              "name": "goal1Target",
+                              "fill": "#64748b",
+                              "content": "Target: $120,000",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "jqRne",
+                      "name": "goal1Progress",
+                      "width": "fill_container",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "ybNSL",
+                          "name": "goal1Current",
+                          "fill": "#1e293b",
+                          "content": "$45,000",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "bold"
+                        },
+                        {
+                          "type": "text",
+                          "id": "EHlmE",
+                          "name": "goal1Percent",
+                          "fill": "#645cca",
+                          "content": "38%",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "c9XTo",
+                      "name": "progressBar1",
+                      "width": "fill_container",
+                      "height": 8,
+                      "fill": "rgba(100,92,202,0.2)",
+                      "cornerRadius": 4,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "6w4qp",
+                          "name": "progressFill1",
+                          "width": "fit_content(0)",
+                          "height": 8,
+                          "fill": "#645cca",
+                          "cornerRadius": 4
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "0h8Mm",
+                  "name": "Goal Card",
+                  "width": "fill_container",
+                  "fill": "linear-gradient(135deg, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0.3) 50%, rgba(255,255,255,0.2) 100%)",
+                  "cornerRadius": 24,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 20,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "BmApT",
+                      "name": "goal2Header",
+                      "width": "fill_container",
+                      "gap": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "ellipse",
+                          "id": "iYbSg",
+                          "name": "goal2Icon",
+                          "fill": "rgba(255,255,255,0.7)",
+                          "width": 44,
+                          "height": 44
+                        },
+                        {
+                          "type": "frame",
+                          "id": "S3Fh8",
+                          "name": "goal2IconBox",
+                          "width": 44,
+                          "height": 44,
+                          "layout": "vertical",
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "m5rud",
+                              "name": "goal2IconText",
+                              "content": "✈️",
+                              "fontFamily": "Inter",
+                              "fontSize": 22,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "Zgn9Q",
+                          "name": "goal2Info",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 2,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "BIeu4",
+                              "name": "goal2Name",
+                              "fill": "#1e293b",
+                              "content": "Vacation Fund",
+                              "fontFamily": "Inter",
+                              "fontSize": 16,
+                              "fontWeight": "bold"
+                            },
+                            {
+                              "type": "text",
+                              "id": "cIqfu",
+                              "name": "goal2Target",
+                              "fill": "#64748b",
+                              "content": "Target: $15,000",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "fFzzG",
+                      "name": "goal2Progress",
+                      "width": "fill_container",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "fKsgq",
+                          "name": "goal2Current",
+                          "fill": "#1e293b",
+                          "content": "$12,750",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "bold"
+                        },
+                        {
+                          "type": "text",
+                          "id": "haBDi",
+                          "name": "goal2Percent",
+                          "fill": "#22c55e",
+                          "content": "85%",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "IImFE",
+                      "name": "progressBar2",
+                      "width": "fill_container",
+                      "height": 8,
+                      "fill": "rgba(34,197,94,0.2)",
+                      "cornerRadius": 4,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "6aFQQ",
+                          "name": "progressFill2",
+                          "width": "fit_content(0)",
+                          "height": 8,
+                          "fill": "#22c55e",
+                          "cornerRadius": 4
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "VWANI",
+                  "name": "Goal Card",
+                  "width": "fill_container",
+                  "fill": "linear-gradient(135deg, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0.3) 50%, rgba(255,255,255,0.2) 100%)",
+                  "cornerRadius": 24,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 20,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "ivYh7",
+                      "name": "goal3Header",
+                      "width": "fill_container",
+                      "gap": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "ellipse",
+                          "id": "b9L27",
+                          "name": "goal3Icon",
+                          "fill": "rgba(255,255,255,0.7)",
+                          "width": 44,
+                          "height": 44
+                        },
+                        {
+                          "type": "frame",
+                          "id": "8clRh",
+                          "name": "goal3IconBox",
+                          "width": 44,
+                          "height": 44,
+                          "layout": "vertical",
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "87RKr",
+                              "name": "goal3IconText",
+                              "content": "🚨",
+                              "fontFamily": "Inter",
+                              "fontSize": 22,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "OA35t",
+                          "name": "goal3Info",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 2,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "bBpvl",
+                              "name": "goal3Name",
+                              "fill": "#1e293b",
+                              "content": "Emergency Fund",
+                              "fontFamily": "Inter",
+                              "fontSize": 16,
+                              "fontWeight": "bold"
+                            },
+                            {
+                              "type": "text",
+                              "id": "s70Ne",
+                              "name": "goal3Target",
+                              "fill": "#64748b",
+                              "content": "Target: $30,000",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "VEH2l",
+                      "name": "goal3Progress",
+                      "width": "fill_container",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "4Ud3q",
+                          "name": "goal3Current",
+                          "fill": "#1e293b",
+                          "content": "$30,000",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "bold"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "POnWh",
+                          "name": "goal3Badge",
+                          "fill": "#22c55e",
+                          "cornerRadius": 12,
+                          "padding": [
+                            4,
+                            12
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "RpBXc",
+                              "name": "goal3BadgeText",
+                              "fill": "#ffffff",
+                              "content": "✓ Complete",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "pZkp0",
+                      "name": "progressBar3",
+                      "width": "fill_container",
+                      "height": 8,
+                      "fill": "rgba(34,197,94,0.2)",
+                      "cornerRadius": 4,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "pAxSK",
+                          "name": "progressFill3",
+                          "width": "fit_content(0)",
+                          "height": 8,
+                          "fill": "#22c55e",
+                          "cornerRadius": 4
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "tCHH9",
+      "x": 1280,
+      "y": 0,
+      "name": "Settings Page",
+      "width": 390,
+      "height": 844,
+      "fill": "#d8d8fd",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "NDJ3t",
+          "name": "Header",
+          "width": "fill_container",
+          "height": 120,
+          "fill": "linear-gradient(180deg, #d8d8fd 0%, #e7e7ff 100%)",
+          "layout": "vertical",
+          "padding": [
+            60,
+            24,
+            16,
+            24
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "UrGbE",
+              "name": "settingsTitle",
+              "fill": "#645cca",
+              "content": "Settings",
+              "fontFamily": "Inter",
+              "fontSize": 28,
+              "fontWeight": "bold",
+              "letterSpacing": -0.5
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "PGBzr",
+          "name": "Content",
+          "width": "fill_container",
+          "height": "fill_container",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            0,
+            24,
+            100,
+            24
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "sKtWe",
+              "name": "Profile Card",
+              "width": "fill_container",
+              "fill": "linear-gradient(135deg, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0.3) 50%, rgba(255,255,255,0.2) 100%)",
+              "cornerRadius": 24,
+              "gap": 16,
+              "padding": 20,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "ellipse",
+                  "id": "TVWO1",
+                  "name": "avatar",
+                  "fill": "#645cca",
+                  "width": 60,
+                  "height": 60
+                },
+                {
+                  "type": "text",
+                  "id": "SQa7F",
+                  "name": "avatarText",
+                  "content": "👤",
+                  "fontFamily": "Inter",
+                  "fontSize": 32,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "wU1lw",
+                  "name": "profileInfo",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "4ACz7",
+                      "name": "userName",
+                      "fill": "#1e293b",
+                      "content": "John Doe",
+                      "fontFamily": "Inter",
+                      "fontSize": 18,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Zzl8E",
+                      "name": "userEmail",
+                      "fill": "#64748b",
+                      "content": "john@example.com",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "cyIa6",
+                  "name": "editIcon",
+                  "width": 36,
+                  "height": 36,
+                  "fill": "rgba(255,255,255,0.5)",
+                  "cornerRadius": 18,
+                  "layout": "vertical",
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "ukTf8",
+                      "name": "editIconText",
+                      "content": "✏️",
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "qWPzT",
+              "name": "sectionTitle1",
+              "fill": "#64748b",
+              "content": "GENERAL",
+              "fontFamily": "Inter",
+              "fontSize": 12,
+              "fontWeight": "700",
+              "letterSpacing": 0.5
+            },
+            {
+              "type": "frame",
+              "id": "z8OTH",
+              "name": "Settings Group",
+              "width": "fill_container",
+              "fill": "linear-gradient(135deg, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0.3) 50%, rgba(255,255,255,0.2) 100%)",
+              "cornerRadius": 24,
+              "layout": "vertical",
+              "padding": 8,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "RVPmI",
+                  "name": "setting1",
+                  "width": "fill_container",
+                  "gap": 12,
+                  "padding": 12,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "j6JGl",
+                      "name": "setting1Icon",
+                      "content": "💰",
+                      "fontFamily": "Inter",
+                      "fontSize": 20,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "RUMx3",
+                      "name": "setting1Label",
+                      "fill": "#1e293b",
+                      "content": "Currency",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "ifi2J",
+                      "name": "setting1Spacer",
+                      "width": "fill_container",
+                      "height": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "6ajsm",
+                      "name": "setting1Value",
+                      "fill": "#94a3b8",
+                      "content": "USD",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "UAkMK",
+                      "name": "setting1Chevron",
+                      "fill": "#94a3b8",
+                      "content": "›",
+                      "fontFamily": "Inter",
+                      "fontSize": 20,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "rectangle",
+                  "id": "FYXgA",
+                  "name": "divider1",
+                  "fill": "rgba(100,92,202,0.1)",
+                  "width": "fill_container",
+                  "height": 1
+                },
+                {
+                  "type": "frame",
+                  "id": "fAiHm",
+                  "name": "setting2",
+                  "width": "fill_container",
+                  "gap": 12,
+                  "padding": 12,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "MD22K",
+                      "name": "setting2Icon",
+                      "content": "🌐",
+                      "fontFamily": "Inter",
+                      "fontSize": 20,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "jo93i",
+                      "name": "setting2Label",
+                      "fill": "#1e293b",
+                      "content": "Language",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "j64b7",
+                      "name": "setting2Spacer",
+                      "width": "fill_container",
+                      "height": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "lqWV6",
+                      "name": "setting2Value",
+                      "fill": "#94a3b8",
+                      "content": "English",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "wLpJp",
+                      "name": "setting2Chevron",
+                      "fill": "#94a3b8",
+                      "content": "›",
+                      "fontFamily": "Inter",
+                      "fontSize": 20,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "rectangle",
+                  "id": "6R1UZ",
+                  "name": "divider2",
+                  "fill": "rgba(100,92,202,0.1)",
+                  "width": "fill_container",
+                  "height": 1
+                },
+                {
+                  "type": "frame",
+                  "id": "HcvqX",
+                  "name": "setting3",
+                  "width": "fill_container",
+                  "gap": 12,
+                  "padding": 12,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "WMU6q",
+                      "name": "setting3Icon",
+                      "content": "🔔",
+                      "fontFamily": "Inter",
+                      "fontSize": 20,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "4Q4FF",
+                      "name": "setting3Label",
+                      "fill": "#1e293b",
+                      "content": "Notifications",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "a0woG",
+                      "name": "setting3Spacer",
+                      "width": "fill_container",
+                      "height": 1
+                    },
+                    {
+                      "type": "frame",
+                      "id": "uwjSf",
+                      "name": "setting3Toggle",
+                      "width": 44,
+                      "height": 26,
+                      "fill": "#645cca",
+                      "cornerRadius": 13,
+                      "padding": 2,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "ellipse",
+                          "id": "ZdH6b",
+                          "name": "toggleCircle",
+                          "fill": "#ffffff",
+                          "width": 22,
+                          "height": 22
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "97MrD",
+              "name": "sectionTitle2",
+              "fill": "#64748b",
+              "content": "SECURITY",
+              "fontFamily": "Inter",
+              "fontSize": 12,
+              "fontWeight": "700",
+              "letterSpacing": 0.5
+            },
+            {
+              "type": "frame",
+              "id": "fx2u2",
+              "name": "Settings Group",
+              "width": "fill_container",
+              "fill": "linear-gradient(135deg, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0.3) 50%, rgba(255,255,255,0.2) 100%)",
+              "cornerRadius": 24,
+              "layout": "vertical",
+              "padding": 8,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "EIvb7",
+                  "name": "setting4",
+                  "width": "fill_container",
+                  "gap": 12,
+                  "padding": 12,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "3zYNA",
+                      "name": "setting4Icon",
+                      "content": "🔒",
+                      "fontFamily": "Inter",
+                      "fontSize": 20,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "T9Nqg",
+                      "name": "setting4Label",
+                      "fill": "#1e293b",
+                      "content": "Face ID",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "zLRXt",
+                      "name": "setting4Spacer",
+                      "width": "fill_container",
+                      "height": 1
+                    },
+                    {
+                      "type": "frame",
+                      "id": "aHPwC",
+                      "name": "setting4Toggle",
+                      "width": 44,
+                      "height": 26,
+                      "fill": "#645cca",
+                      "cornerRadius": 13,
+                      "padding": 2,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "ellipse",
+                          "id": "gbKIw",
+                          "name": "toggle4Circle",
+                          "fill": "#ffffff",
+                          "width": 22,
+                          "height": 22
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "5GzQY",
+              "name": "sectionTitle3",
+              "fill": "#64748b",
+              "content": "DATA",
+              "fontFamily": "Inter",
+              "fontSize": 12,
+              "fontWeight": "700",
+              "letterSpacing": 0.5
+            },
+            {
+              "type": "frame",
+              "id": "U198u",
+              "name": "Settings Group",
+              "width": "fill_container",
+              "fill": "linear-gradient(135deg, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0.3) 50%, rgba(255,255,255,0.2) 100%)",
+              "cornerRadius": 24,
+              "layout": "vertical",
+              "padding": 8,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "Gg4sm",
+                  "name": "setting5",
+                  "width": "fill_container",
+                  "gap": 12,
+                  "padding": 12,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "2Vyuq",
+                      "name": "setting5Icon",
+                      "content": "💾",
+                      "fontFamily": "Inter",
+                      "fontSize": 20,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "OW87c",
+                      "name": "setting5Label",
+                      "fill": "#1e293b",
+                      "content": "Backup Data",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "MoMdb",
+                      "name": "setting5Spacer",
+                      "width": "fill_container",
+                      "height": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "Ji6lQ",
+                      "name": "setting5Chevron",
+                      "fill": "#94a3b8",
+                      "content": "›",
+                      "fontFamily": "Inter",
+                      "fontSize": 20,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "rectangle",
+                  "id": "v8zaB",
+                  "name": "divider5",
+                  "fill": "rgba(100,92,202,0.1)",
+                  "width": "fill_container",
+                  "height": 1
+                },
+                {
+                  "type": "frame",
+                  "id": "p1fww",
+                  "name": "setting6",
+                  "width": "fill_container",
+                  "gap": 12,
+                  "padding": 12,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Y0iNH",
+                      "name": "setting6Icon",
+                      "content": "📥",
+                      "fontFamily": "Inter",
+                      "fontSize": 20,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "MoJDk",
+                      "name": "setting6Label",
+                      "fill": "#1e293b",
+                      "content": "Export Data",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "E1DUY",
+                      "name": "setting6Spacer",
+                      "width": "fill_container",
+                      "height": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "rs3qI",
+                      "name": "setting6Chevron",
+                      "fill": "#94a3b8",
+                      "content": "›",
+                      "fontFamily": "Inter",
+                      "fontSize": 20,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "4lEED",
+              "name": "sectionTitle4",
+              "fill": "#64748b",
+              "content": "ABOUT",
+              "fontFamily": "Inter",
+              "fontSize": 12,
+              "fontWeight": "700",
+              "letterSpacing": 0.5
+            },
+            {
+              "type": "frame",
+              "id": "UbICo",
+              "name": "Settings Group",
+              "width": "fill_container",
+              "fill": "linear-gradient(135deg, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0.3) 50%, rgba(255,255,255,0.2) 100%)",
+              "cornerRadius": 24,
+              "layout": "vertical",
+              "padding": 8,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "LlHVs",
+                  "name": "setting7",
+                  "width": "fill_container",
+                  "gap": 12,
+                  "padding": 12,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "eQZqt",
+                      "name": "setting7Icon",
+                      "content": "ℹ️",
+                      "fontFamily": "Inter",
+                      "fontSize": 20,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "fVECf",
+                      "name": "setting7Label",
+                      "fill": "#1e293b",
+                      "content": "App Version",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "EWS9P",
+                      "name": "setting7Spacer",
+                      "width": "fill_container",
+                      "height": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "exBwe",
+                      "name": "setting7Value",
+                      "fill": "#94a3b8",
+                      "content": "v1.0.0",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "QtWgF",
+      "x": 1710,
+      "y": 0,
+      "name": "Add Transaction Modal",
+      "width": 390,
+      "height": 844,
+      "fill": "rgba(0,0,0,0.5)",
+      "layout": "vertical",
+      "padding": 24,
+      "justifyContent": "center",
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "frame",
+          "id": "tNjyy",
+          "name": "Modal Card",
+          "width": "fill_container",
+          "fill": "linear-gradient(135deg, rgba(255,255,255,0.95) 0%, rgba(255,255,255,0.9) 100%)",
+          "cornerRadius": 32,
+          "layout": "vertical",
+          "gap": 20,
+          "padding": 24,
+          "children": [
+            {
+              "type": "frame",
+              "id": "4wWMN",
+              "name": "modalHeader",
+              "width": "fill_container",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "2vp9o",
+                  "name": "modalTitle",
+                  "fill": "#1e293b",
+                  "content": "Add Transaction",
+                  "fontFamily": "Inter",
+                  "fontSize": 22,
+                  "fontWeight": "bold"
+                },
+                {
+                  "type": "frame",
+                  "id": "rgfZV",
+                  "name": "closeBtn",
+                  "width": 32,
+                  "height": 32,
+                  "fill": "rgba(100,92,202,0.1)",
+                  "cornerRadius": 16,
+                  "layout": "vertical",
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "DjTFs",
+                      "name": "closeIcon",
+                      "fill": "#645cca",
+                      "content": "✕",
+                      "fontFamily": "Inter",
+                      "fontSize": 18,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "SC6m1",
+              "name": "Type Selector",
+              "width": "fill_container",
+              "gap": 8,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "zJRFE",
+                  "name": "typeIncome",
+                  "width": "fill_container",
+                  "height": 48,
+                  "fill": "linear-gradient(135deg, rgba(34,197,94,0.2) 0%, rgba(34,197,94,0.1) 100%)",
+                  "cornerRadius": 16,
+                  "layout": "vertical",
+                  "gap": 4,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "C933Y",
+                      "name": "incomeIcon",
+                      "content": "💰",
+                      "fontFamily": "Inter",
+                      "fontSize": 20,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "aMyI8",
+                      "name": "incomeLabel",
+                      "fill": "#22c55e",
+                      "content": "Income",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "4vKeY",
+                  "name": "typeExpense",
+                  "width": "fill_container",
+                  "height": 48,
+                  "fill": "rgba(100,92,202,0.05)",
+                  "cornerRadius": 16,
+                  "layout": "vertical",
+                  "gap": 4,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "snixj",
+                      "name": "expenseIcon",
+                      "content": "💸",
+                      "fontFamily": "Inter",
+                      "fontSize": 20,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "k27tt",
+                      "name": "expenseLabel",
+                      "fill": "#64748b",
+                      "content": "Expense",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "WtOgT",
+                  "name": "typeTransfer",
+                  "width": "fill_container",
+                  "height": 48,
+                  "fill": "rgba(100,92,202,0.05)",
+                  "cornerRadius": 16,
+                  "layout": "vertical",
+                  "gap": 4,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "P38Vf",
+                      "name": "transferIcon",
+                      "content": "🔄",
+                      "fontFamily": "Inter",
+                      "fontSize": 20,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "30jdS",
+                      "name": "transferLabel",
+                      "fill": "#64748b",
+                      "content": "Transfer",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "gPEGa",
+              "name": "amountSection",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 8,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "TOygw",
+                  "name": "amountLabel",
+                  "fill": "#64748b",
+                  "content": "Amount",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "frame",
+                  "id": "1GO01",
+                  "name": "amountInput",
+                  "width": "fill_container",
+                  "height": 60,
+                  "fill": "#ffffff",
+                  "cornerRadius": 16,
+                  "gap": 8,
+                  "padding": [
+                    16,
+                    20
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "ZxTWx",
+                      "name": "dollarSign",
+                      "fill": "#645cca",
+                      "content": "$",
+                      "fontFamily": "Inter",
+                      "fontSize": 24,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "VkFUy",
+                      "name": "amountValue",
+                      "fill": "#1e293b",
+                      "content": "0",
+                      "fontFamily": "Inter",
+                      "fontSize": 28,
+                      "fontWeight": "bold"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "ttbQR",
+              "name": "categorySection",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 8,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "QnpCx",
+                  "name": "categoryLabel",
+                  "fill": "#64748b",
+                  "content": "Category",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "frame",
+                  "id": "ZoIHG",
+                  "name": "categoryInput",
+                  "width": "fill_container",
+                  "height": 52,
+                  "fill": "#ffffff",
+                  "cornerRadius": 16,
+                  "padding": [
+                    12,
+                    16
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "E8dz5",
+                      "name": "categoryText",
+                      "fill": "#94a3b8",
+                      "content": "Select category",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "QHjLP",
+                      "name": "categoryChevron",
+                      "fill": "#94a3b8",
+                      "content": "›",
+                      "fontFamily": "Inter",
+                      "fontSize": 20,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "6fK34",
+              "name": "dateSection",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 8,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "0OJYg",
+                  "name": "dateLabel",
+                  "fill": "#64748b",
+                  "content": "Date",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "frame",
+                  "id": "d02us",
+                  "name": "dateInput",
+                  "width": "fill_container",
+                  "height": 52,
+                  "fill": "#ffffff",
+                  "cornerRadius": 16,
+                  "padding": [
+                    12,
+                    16
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "dq93r",
+                      "name": "dateText",
+                      "fill": "#1e293b",
+                      "content": "Today",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "lxhdE",
+                      "name": "dateIcon",
+                      "content": "📅",
+                      "fontFamily": "Inter",
+                      "fontSize": 18,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "MAafo",
+              "name": "noteSection",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 8,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "ksQiX",
+                  "name": "noteLabel",
+                  "fill": "#64748b",
+                  "content": "Note (Optional)",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "frame",
+                  "id": "i3p3S",
+                  "name": "noteInput",
+                  "width": "fill_container",
+                  "height": 80,
+                  "fill": "#ffffff",
+                  "cornerRadius": 16,
+                  "layout": "vertical",
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "MsErJ",
+                      "name": "notePlaceholder",
+                      "fill": "#94a3b8",
+                      "content": "Add a note...",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "EeZjf",
+              "name": "submitBtn",
+              "width": "fill_container",
+              "height": 56,
+              "fill": "#645cca",
+              "cornerRadius": 16,
+              "layout": "vertical",
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "5bvLg",
+                  "name": "submitText",
+                  "fill": "#ffffff",
+                  "content": "Add Transaction",
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "bold"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
