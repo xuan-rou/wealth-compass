@@ -62,32 +62,29 @@ const assetItems = ref([
       <!-- Stats Grid -->
       <section class="grid grid-cols-2 gap-4">
         <div class="flex flex-col gap-4">
-          <div class="flex-1">
-            <StatCard
-              title="Total Assets"
-              amount="1,100,000"
-              icon="fa-solid fa-chart-line"
-              iconColor="bg-blue-100 text-blue-600"
-            />
-          </div>
-          <div class="flex-1">
-            <StatCard
-              title="Total Liabilities"
-              amount="100,000"
-              icon="📉"
-              iconColor="bg-red-100 text-red-600"
-            />
-          </div>
+          <StatCard
+            title="Total Assets"
+            amount="1,100,000"
+            :icon="'fa-solid fa-sack-dollar text-blue-600/40'"
+          />
+          <StatCard
+            title="Total Liabilities"
+            amount="100,000"
+            :icon="'fa-solid fa-cash-register text-blue-600/40'"
+          />
         </div>
         <div class="h-full">
-          <StatCard title="Asset Allocation">
+          <StatCard
+            title="Asset Allocation"
+            :icon="'fa-solid fa-chart-pie text-blue-600/40'"
+          >
             <!-- Simple CSS Donut Chart Mock -->
             <div class="relative mx-auto mt-2 h-32 w-32">
               <div
-                class="absolute inset-0 rounded-full border-[12px] border-indigo-300"
+                class="absolute inset-0 rounded-full border-12 border-indigo-300"
               ></div>
               <div
-                class="absolute inset-0 rotate-45 rounded-full border-[12px] border-transparent border-t-purple-400"
+                class="absolute inset-0 rotate-45 rounded-full border-12 border-transparent border-t-purple-400"
               ></div>
               <div
                 class="absolute inset-0 rotate-[120deg] rounded-full border-[12px] border-transparent border-l-teal-300"
@@ -104,7 +101,10 @@ const assetItems = ref([
 
       <!-- Monthly Cashflow -->
       <section>
-        <StatCard title="Monthly Cashflow">
+        <StatCard
+          title="Monthly Cashflow"
+          :icon="'fa-solid fa-chart-line text-blue-600/40'"
+        >
           <CashFlowChart />
         </StatCard>
       </section>

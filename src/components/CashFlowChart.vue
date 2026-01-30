@@ -13,11 +13,14 @@ const bars = [
 </script>
 
 <template>
-  <div class="flex h-full w-full items-end justify-between gap-2 px-2 pt-4">
-    <div 
-      v-for="(bar, index) in bars" 
+  <div class="flex h-48 w-full items-end justify-between gap-2 px-2 pt-4">
+    <div
+      v-for="(bar, index) in bars"
       :key="index"
-      :class="['w-full rounded-t-lg opacity-80 backdrop-blur-sm transition-all hover:opacity-100', bar.color]"
+      :class="[
+        'w-full rounded-t-lg opacity-80 backdrop-blur-sm transition-all hover:opacity-100',
+        bar.color,
+      ]"
       :style="{ height: bar.h }"
     ></div>
   </div>
