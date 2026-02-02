@@ -29,17 +29,13 @@ const assetItems = ref([
 
 <template>
   <div
-    class="min-h-screen overflow-x-hidden bg-[url(./assets/img/bg.png)] bg-contain bg-top bg-no-repeat pt-12 text-slate-700 selection:bg-indigo-100"
+    class="min-h-screen overflow-x-hidden bg-[url(./assets/img/bg.png)] bg-contain bg-no-repeat pt-12 text-slate-700 selection:bg-indigo-100"
   >
     <header class="mb-8 flex items-center justify-between px-6">
       <!-- Menu Icon -->
       <div class="cursor-pointer">
         <i class="fa-solid fa-bars text-3xl text-white"></i>
       </div>
-
-      <h1 class="text-2xl font-bold text-white drop-shadow-md">
-        WealthCompass
-      </h1>
 
       <div
         class="h-10 w-10 overflow-hidden rounded-full border-2 border-white bg-indigo-100 shadow-sm"
@@ -52,7 +48,7 @@ const assetItems = ref([
     </header>
 
     <main
-      class="absolute bottom-0 flex h-[calc(100vh-220px)] flex-col gap-6 overflow-y-auto rounded-t-[2.85rem] bg-(image:--image-dreamy-gradient) px-6 pt-6 pb-28 drop-shadow-lg"
+      class="absolute bottom-0 flex h-[calc(100vh-220px)] w-full flex-col gap-6 overflow-y-auto rounded-t-[2.85rem] bg-(image:--image-dreamy-gradient) px-6 pt-6 pb-28 drop-shadow-lg"
     >
       <!-- Hero Section -->
       <section>

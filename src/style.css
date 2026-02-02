@@ -3,10 +3,10 @@
 @theme {
   /* 1. 定義夢幻背景漸層 */
   --image-dreamy-gradient: linear-gradient(
-    to bottom,
-    #d8d8fd,
-    #e7e7ff,
-    #eceeff
+    180deg,
+    #fff9e5 0%,
+    #e8e3ff 40%,
+    #f8e7f5 100%
   );
 
   /* 2. 定義專屬色彩 */
