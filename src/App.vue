@@ -5,11 +5,14 @@ import StatCard from './components/StatCard.vue'
 import AssetList from './components/AssetList.vue'
 import BottomNav from './components/BottomNav.vue'
 import CashFlowChart from './components/CashFlowChart.vue'
+import AddAsset from './components/AddAsset.vue'
 
 // Import the generated mascot (assuming it's placed in assets or handled via public)
 // For this demo, we'll assume the user will move the file or we reference it if in public.
 // Since we can't easily move the generated file to public/assets without command, we will use a placeholder or check if we can copy it.
 // I'll assume we can use the relative path if I move it. For now, I'll use a placeholder text if image missing.
+
+const showAddAsset = ref(false)
 
 const assetItems = ref([
   {
@@ -25,6 +28,16 @@ const assetItems = ref([
     color: 'bg-teal-100/50 text-teal-600',
   },
 ])
+
+const handleAddAsset = (data: { type: string; amount: string }) => {
+  console.log('New asset:', data)
+  // TODO: Add asset to the list
+  showAddAsset.value = false
+}
+
+const handleOpenAddAsset = () => {
+  showAddAsset.value = true
+}
 </script>
 
 <template>
@@ -115,7 +128,14 @@ const assetItems = ref([
       </section>
     </main>
 
-    <BottomNav activeTab="assets" />
+    <BottomNav activeTab="assets" @open-add-asset="handleOpenAddAsset" />
+
+    <!-- Add Asset Modal -->
+    <AddAsset
+      v-if="showAddAsset"
+      @close="showAddAsset = false"
+      @submit="handleAddAsset"
+    />
   </div>
 </template>
 
